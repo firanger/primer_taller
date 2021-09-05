@@ -155,3 +155,16 @@ precio = (fotos * 1500)
 monto = (precio + (precio * 0.16))
 
 print("el precio toltal por el revelado es: ", monto) '''
+
+'''11.  En un hospital existen tres áreas: Ginecología, Pediatría y 
+Traumatología. El presupuesto anual del hospital se reparte 
+conforme a la siguiente tabla: 
+monto = float(input("ingrese el monto presupuestal "))
+
+gineco = (monto * 0.40)
+trau = (monto * 0.30)
+pediatria = (monto * 0.30)
+
+print("el presupuesto para ginecologia es: ", gineco)
+print("el presupuesto para traumatologia es: ", trau)
+print("el presupuesto para pediatria es: ", pediatria)'''
