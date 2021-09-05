@@ -143,3 +143,15 @@ porcentaje = (costo * 0.20)
 cobrofinal = (costo + porcentaje)
 
 print("el costo total de la llamada es: ", cobrofinal)'''
+
+'''10.  En una fototienda cobran por el revelado de un rollo $1.500 por cada 
+foto.  Realice  un  algoritmo  que  determine  el  monto  a  pagar  por  un 
+revelado  completo  sabiendo  que  adiconalmente  le  cobran  el  IVA 
+(16%).
+
+fotos = int(input("ingrese cuantas fotos hay en el rollo "))
+
+precio = (fotos * 1500)
+monto = (precio + (precio * 0.16))
+
+print("el precio toltal por el revelado es: ", monto) '''
