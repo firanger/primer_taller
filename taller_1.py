@@ -76,3 +76,22 @@ print("el valor descontado por seguro social es: ", desc_seguro_social)
 print("el valor descontado por seguro  forzoso es: ", desc_seguro_forz)
 print("el valor descontado por caja  de  ahorro es: ", desc_caja_ahorro)
 print("el monto total a pagar al traubajador es: ", monto)'''
+
+''' 6. El  periódico  el  Informador  cobra  por  un  aviso  clasificado  un  monto 
+que depende del número de palabras, tamaño en cetímetros y 
+número  de  colores.  Cada  palabra  tiene  un  costo  de  $20.000,  cada 
+centímetro  tiene  un  costo  de  $15.000  y  cada  color  tiene  un  costo  de 
+$25.000. Realice un algoritmo que determine el monto a pagar por un 
+aviso clasificado.
+
+palabras = float(input("ingrese numero de palabras"))
+centimetros = float(input("ingrese numero de centimetros"))
+colores = float(input("ingrese numero de colores"))
+
+monto=(palabras * 20000)
+totalc=(centimetros * 15000)
+totalcolor=(colores * 25000)
+
+monto=(monto+totalc+totalcolor)
+
+print("el monto total es : ", monto)'''
