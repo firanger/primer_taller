@@ -198,3 +198,21 @@ iva = ((personas * dias * precio) * (0.12))
 monto = ((precio * personas * dias) + iva)
 
 print("el monto total a pagar es: ", monto)'''
+
+'''14. Un  Hotel  5  Estrellas  de  Santa  Marta  tiene  una  promoción  para  sus 
+clientes.  Cobra  por  una  habitación  $100.000  el  primer  día  y  por  el 
+resto $200.000 por día. Realice un algoritmo que determine el valor 
+total a pagar por la habitación si la estadía fue de varios días. 
+dias=int(input("ingrese el numero de dias "))
+monto=0
+for i in range(dias):
+    if i !=0 :
+        monto+=200000
+    if dias==0:
+        monto=0
+    if dias==1:
+        monto=100000
+if dias>1:
+    print("el monto total es:", (monto+100000))
+if dias ==1 or dias==0:    
+    print("el monto total es:", monto)'''
