@@ -50,3 +50,11 @@ total=persona_3+persona_1+persona_2
 print("el porcentaje invertido por la persona_1 es: ", (persona_1/total)*100,"%")
 print("el porcentaje invertido por la persona_1 es: ", (persona_2/total)*100,"%")
 print("el porcentaje invertido por la persona_1 es: ", (persona_3/total)*100,"%")'''
+
+'''4.  Un  banco  da  a  sus  ahorradores  un  interes  de  1.5%  sobre  el  monto 
+ahorrado. Teniendo como dato de entrada el saldo inicial del 
+ahorrador determine el saldo final. 
+
+saldo=float(input("ingrese el saldo del ahorrador "))
+saldo_final=(saldo*0.015)+saldo
+print("el saldo final es: ",saldo_final)'''
