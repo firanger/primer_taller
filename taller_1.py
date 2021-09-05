@@ -168,3 +168,17 @@ pediatria = (monto * 0.30)
 print("el presupuesto para ginecologia es: ", gineco)
 print("el presupuesto para traumatologia es: ", trau)
 print("el presupuesto para pediatria es: ", pediatria)'''
+
+'''12. Una video tienda alquila DVD a $1.500 el día. Tiene una promoción 
+que  consiste  en  dejar  gratis  el  alquiler  de  una  película.  Realice  un 
+algoritmo  que  teniendo  como  dato  de  entrada  el  total  de  películas 
+alquiladas,  y  el  número  de  días  de  alquiler,  determine  el  monto  a 
+pagar.
+
+pelis = int(input("ingrese el numero de peliculas "))
+dias = int(input("ingrese el numero de dias"))
+precio= 1500
+
+monto = ((pelis-1) * dias * precio)
+
+print("el valor total a pagar es: ", monto)'''
