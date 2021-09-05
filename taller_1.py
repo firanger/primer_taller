@@ -114,7 +114,7 @@ if años>1:
 if años ==1 or años==0:    
     print("el monto total por natiguedad es:", monto) '''
 
-    '''8. Una  Universidad  le  paga  a  sus  profesores  $20.000  la  hora  y  le  hace 
+'''8. Una  Universidad  le  paga  a  sus  profesores  $20.000  la  hora  y  le  hace 
 un  descuento  del  5%  por  concepto  de  caja  de  ahorro.  Determine  el 
 monto del descuento y el monto total a pagar al profesor.
 
@@ -126,3 +126,20 @@ monto = (horasca - descuento)
 
 print("el descuento es de: ",descuento)
 print("el monto final es: ", monto)'''
+
+
+'''9. Un centro de comunicaciones alquilan tarjetas para realizar llamadas 
+y cobran el monto consumido de la tarjeta mas un recargo del 20%. 
+Teniendo como dato de entrada el monto inicial y el monto final de la 
+tarjeta, determine el costo de la llamada.
+
+
+
+ini = float(input("ingrese el monto inicial "))
+final = float(input("ingrese el monto final "))
+
+costo = (ini - final)
+porcentaje = (costo * 0.20)
+cobrofinal = (costo + porcentaje)
+
+print("el costo total de la llamada es: ", cobrofinal)'''
