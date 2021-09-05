@@ -95,3 +95,21 @@ totalcolor=(colores * 25000)
 monto=(monto+totalc+totalcolor)
 
 print("el monto total es : ", monto)'''
+
+'''7.Una  empresa  paga  a  sus  empleados  un  bono  por  antigüedad  que 
+consiste  en  $100.000  por  el  primer  año  laboral  y  $120.000  por  cada 
+año siguiente. Realice un algoritmo que determine el monto del bono 
+a pagar a un trabajador que tiene varios años en la empresa.
+años=int(input("ingrese el numero de años que lleva el trabajador en la pempresa "))
+monto=0
+for i in range(años):
+    if i !=0 :
+        monto+=120000
+    if años==0:
+        monto=0
+    if años==1:
+        monto=100000
+if años>1:
+    print("el monto total por natiguedad es:", (monto+100000))
+if años ==1 or años==0:    
+    print("el monto total por natiguedad es:", monto) '''
