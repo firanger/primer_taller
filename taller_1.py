@@ -58,3 +58,21 @@ ahorrador determine el saldo final.
 saldo=float(input("ingrese el saldo del ahorrador "))
 saldo_final=(saldo*0.015)+saldo
 print("el saldo final es: ",saldo_final)'''
+
+'''5. Una empresa le hace los siguientes descuentos sobre el sueldo base 
+a  sus  trabajadores:  1%  por  ley  de  politica  pública,  4%  por  seguro 
+social,  0.5%  por  seguro  forzoso  y  5%  por  caja  de  ahorro.  Realice  un algoritmo que determine el monto de cada descuento y el monto total 
+a pagar al trabajador. 
+
+sueldo=float(input("ingrese el sueldo base del traubajador "))
+
+desc_ley_p=sueldo*0.01
+desc_seguro_social=sueldo*0.04
+desc_seguro_forz=sueldo*0.005
+desc_caja_ahorro=sueldo*0.05
+monto=sueldo-(desc_caja_ahorro+desc_ley_p+desc_seguro_forz+desc_seguro_social)
+print("el valor descontado por ley  de  politica  pública es: ", desc_ley_p)
+print("el valor descontado por seguro social es: ", desc_seguro_social)
+print("el valor descontado por seguro  forzoso es: ", desc_seguro_forz)
+print("el valor descontado por caja  de  ahorro es: ", desc_caja_ahorro)
+print("el monto total a pagar al traubajador es: ", monto)'''
