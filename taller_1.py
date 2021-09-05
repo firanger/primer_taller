@@ -28,3 +28,12 @@ temperatura=int(input("ingrese el valor de la temperatura "))
 
 masa=(presion * volumen) / (0.37 * (temperatura + 460))
 print("la masa es igual a: ",masa)'''
+
+'''2. Calcular  el  número  de  pulsaciones  que  una  persona  debe  tener  por 
+cada 10 segundos de ejercicio, si la fórmula es: 
+Num. Pulsaciones = (200 – edad) /10.
+nombre=input("ingrese el nombre de la persona en cuestion ")
+print("ingrese la edad de ",nombre, " para realizar el calculo ")
+edad=int(input(""))
+pulsaciones = (200 - edad) /10
+print("el numero de pulsaciones que debe tener ",nombre , " cada 10s es: ",pulsaciones)'''
