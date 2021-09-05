@@ -113,3 +113,16 @@ if años>1:
     print("el monto total por natiguedad es:", (monto+100000))
 if años ==1 or años==0:    
     print("el monto total por natiguedad es:", monto) '''
+
+    '''8. Una  Universidad  le  paga  a  sus  profesores  $20.000  la  hora  y  le  hace 
+un  descuento  del  5%  por  concepto  de  caja  de  ahorro.  Determine  el 
+monto del descuento y el monto total a pagar al profesor.
+
+horas = float(input("ingrese el numero de horas traubajadas "))
+
+horasca = (horas * 20000)
+descuento= (horasca * 0.05)
+monto = (horasca - descuento)
+
+print("el descuento es de: ",descuento)
+print("el monto final es: ", monto)'''
