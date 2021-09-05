@@ -37,3 +37,16 @@ print("ingrese la edad de ",nombre, " para realizar el calculo ")
 edad=int(input(""))
 pulsaciones = (200 - edad) /10
 print("el numero de pulsaciones que debe tener ",nombre , " cada 10s es: ",pulsaciones)'''
+
+'''3. Tres  personas  deciden  invertir  su  dinero  para  fundar  una  empresa. 
+Cada una de ellas invierte una cantidad distinta. Obtener el porcentaje 
+que cada quien invierte con respecto a la cantidad total invertida.
+
+persona_1=float(input("ingrese la cantidad invertida de persona 1 "))
+persona_2=float(input("ingrese la cantidad invertida de persona 2 "))
+persona_3=float(input("ingrese la cantidad invertida de persona 3 "))
+
+total=persona_3+persona_1+persona_2
+print("el porcentaje invertido por la persona_1 es: ", (persona_1/total)*100,"%")
+print("el porcentaje invertido por la persona_1 es: ", (persona_2/total)*100,"%")
+print("el porcentaje invertido por la persona_1 es: ", (persona_3/total)*100,"%")'''
